@@ -1,5 +1,4 @@
-Overview:  
-MyCPU is a 16-bit RISC architecture-based processor core designed to perform a variety of arithmetic, logical, and control operations. This processor features a modular design and is implemented as part of a digital techniques design project. MyCPU is designed for efficient instruction execution and integrates a pipeline for fetching and executing instructions.  
+16-bit RISC architecture-based processor core designed using SystemVerilog to perform a variety of arithmetic, logical, and control operations. This processor features a modular design and is implemented as part of a digital techniques design project. MyCPU is designed for efficient instruction execution and integrates a pipeline for fetching and executing instructions.  
   
 Key Features   
 16-bit Instruction Set: Supports various instruction types, including register, immediate, branch, and special operations.  
