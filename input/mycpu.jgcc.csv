@@ -1,0 +1,50 @@
+CONNECTION_DEFINITION_TABLE
+CONNECTION , bbus_to_d_out, , bbus, , d_out
+CONNECTION , io_in_to_md[0], , io_in ,  ,md[0]
+CONNECTION , d_in_to_md[1], , d_in ,  ,md[1]
+CONNECTION , fbus_to_md[2], , fbus ,  ,md[2]
+CONNECTION , clk_to_CU , ,clk , CU, clk
+CONNECTION , CU_to_wen_out, CU, wen_out ,  ,wen_out
+CONNECTION , rst_n_to_CU , ,rst_n , CU, rst_n
+CONNECTION , CU_to_iom_out, CU, iom_out ,  ,iom_out
+CONNECTION , nz_to_CU , ,nz , CU, nz_in
+CONNECTION , CU_to_ps, CU, ps_out ,  ,ps
+CONNECTION , ins_to_CU , ,ins , CU, ins_in
+CONNECTION , CU_to_il, CU, il_out ,  ,il
+CONNECTION , CU_to_rw, CU, rw_out ,  ,rw
+CONNECTION , CU_to_rs, CU, rs_out ,  ,rs
+CONNECTION , CU_to_mx, CU, mx_out ,  ,mx
+CONNECTION , CU_to_fs, CU, fs_out ,  ,fs
+CONNECTION , clk_to_IR , ,clk , IR, clk
+CONNECTION , IR_to_ins, IR, ins_out ,  ,ins
+CONNECTION , rst_n_to_IR , ,rst_n , IR, rst_n
+CONNECTION , il_to_IR , ,il , IR, il_in
+CONNECTION , d_in_to_IR , ,d_in , IR, ins_in
+CONNECTION , clk_to_PC , ,clk , PC, clk
+CONNECTION , PC_to_pca, PC, pc_out ,  ,pca
+CONNECTION , rst_n_to_PC , ,rst_n , PC, rst_n
+CONNECTION , ps_to_PC , ,ps , PC, ps_in
+CONNECTION , ins_to_PC , ,ins , PC, ins_in
+CONNECTION , abus_to_FU , ,abus , FU, a_in
+CONNECTION , FU_to_fbus, FU, f_out ,  ,fbus
+CONNECTION , bbus_to_FU , ,bbus , FU, b_in
+CONNECTION , FU_to_nz, FU, nz_out ,  ,nz
+CONNECTION , fs_to_FU , ,fs , FU, fs_in
+CONNECTION , clk_to_RB , ,clk , RB, clk
+CONNECTION , RB_to_abus, RB, a_out ,  ,abus
+CONNECTION , rst_n_to_RB , ,rst_n , RB, rst_n
+CONNECTION , RB_to_bdat, RB, b_out ,  ,bdat
+CONNECTION , dbus_to_RB , ,dbus , RB, d_in
+CONNECTION , rw_to_RB , ,rw , RB, rw_in
+CONNECTION , rs_to_RB , ,rs , RB, rs_in
+CONNECTION , mx[0]_to_MUXM , ,mx[0] , MUXM, sel_in
+CONNECTION , MUXM_to_a_out, MUXM, m_out ,  ,a_out
+CONNECTION , abus_to_MUXM , ,abus , MUXM, d0_in
+CONNECTION , pca_to_MUXM , ,pca , MUXM, d1_in
+CONNECTION , mx[3]_to_MUXB , ,mx[3] , MUXB, sel_in
+CONNECTION , MUXB_to_bbus, MUXB, m_out ,  ,bbus
+CONNECTION , bdat_to_MUXB , ,bdat , MUXB, d0_in
+CONNECTION , ins_to_MUXB , ,ins , MUXB, d1_in
+CONNECTION , mx[2:1]_to_MUXD , ,mx[2:1] , MUXD, sel_in
+CONNECTION , MUXD_to_dbus, MUXD, m_out ,  ,dbus
+CONNECTION , md_to_MUXD , ,md , MUXD, d_in

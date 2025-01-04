@@ -1,0 +1,18 @@
+	;; R0 assumed to be 0 after reset
+	IOR R1 R0
+	IOR R2 R0	
+	IOR R3 R0
+	IOR R4 R0
+	IOR R5 R0
+	IOR R6 R0
+	IOR R7 R0	
+	IOR R0 R0
+	DEC R0 R0
+	DEC R1 R1
+	DEC R2 R2
+	DEC R3 R3
+	DEC R4 R4
+	DEC R5 R5
+	DEC R6 R6
+	INC R7 R7		
+	HAL
